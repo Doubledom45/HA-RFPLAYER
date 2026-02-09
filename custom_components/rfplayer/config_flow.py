@@ -9,7 +9,9 @@ from homeassistant import config_entries, exceptions
 from homeassistant.const import CONF_DEVICE, CONF_DEVICES
 from homeassistant.core import callback
 from homeassistant.helpers.selector import selector
-
+from homeassistant.config_entries import HANDLERS, ConfigEntry, ConfigFlow, ConfigFlowResult, OptionsFlow
+from homeassistant.helpers import config_validation as cv, device_registry as dr
+from homeassistant.helpers.device_registry import DeviceEntry
 from .const import *
 
 log = logging.getLogger(__name__)
@@ -68,15 +70,13 @@ class RfplayerConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     @callback
     def async_get_options_flow(config_entry):
         """Define the config flow to handle options."""
-        return RfPlayerOptionsFlowHandler(config_entry)
+        return RfPlayerOptionsFlowHandler()
 
 
 class RfPlayerOptionsFlowHandler(config_entries.OptionsFlow):
     """Handle a RFPLayer options flow."""
 
-    def __init__(self, config_entry):
-        """Initialize."""
-        self.config_entry = config_entry
+   device_registry: dr.DeviceRegistry
 
     async def async_step_init(self, user_input: dict = None):
     # async def async_step_user(self, user_input: dict | None = None) -> FlowResult:        
