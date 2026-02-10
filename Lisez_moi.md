@@ -103,4 +103,4 @@ data:
   custom_components.rfplayer: debug
 alias: Mode Debug
 ```
-Voir l'Information Bouton log.md !
+[Voir l'Information Bouton log.md !](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Bouton%20log.md)
