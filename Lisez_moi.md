@@ -1,7 +1,7 @@
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=HA-RFPLAYER&category=integration)
 # Installation depuis HACS
  
-# VERSION MODIFIER 2025.11
+# VERSION MODIFIER 2026.2
 
 
 Avec le lien https://github.com/Doubledom45/HA-RFPLAYER
@@ -18,17 +18,15 @@ Intégration
 
 ## Test avec new repos 👉<img width="67" height="30" alt="image" src="https://github.com/user-attachments/assets/2e9005bf-bb7c-4a4e-a9b5-96b2c698b25e" />
 
+<img width="358" height="252" alt="image" src="https://github.com/user-attachments/assets/db83e44f-391b-4e35-afab-eaac83068ca1" />👈Clic sur l'addon
 
-<img width="458" height="224" alt="image" src="https://github.com/user-attachments/assets/a4326938-c921-404d-bf09-26f5fd6b04f5" />
-👈Clic sur l'addon
+<img width="800" height="624" alt="image" src="https://github.com/user-attachments/assets/72b8f68b-e3d3-46d4-afe9-69c0f7465077" />
 
-<img width="824" height="530" alt="image" src="https://github.com/user-attachments/assets/5f90393a-db6f-402e-bd27-8fbe38f4672b" />
 
 
 ## Clic <img width="158" height="58" alt="image" src="https://github.com/user-attachments/assets/358b23b3-99db-4e92-8647-483f93e83174" />
 
-
-<img width="506" height="314" alt="image" src="https://github.com/user-attachments/assets/1dd07503-b8e5-4aed-b462-e49b3cb06fb7" />
+<img width="509" height="382" alt="image" src="https://github.com/user-attachments/assets/cc8bc413-10b9-48f2-b116-b0d0111d46f9" />
 
 
  👉<img width="102" height="39" alt="image" src="https://github.com/user-attachments/assets/6016edb9-838f-480c-9eb5-7d28534026f4" />
@@ -48,22 +46,27 @@ Intégration
 ## Après ajout choix USB
 <img width="450" height="527" alt="image" src="https://github.com/user-attachments/assets/c7e15fb9-936d-48a7-ac2b-02d56bde164d" />
 
-# Choisir ce qui doit être le port du Rfplayer
+# Choisir ce qui doit être le [BON !] port du Rfplayer
+Devrait être dans le choix , avec son intitulé soit FTDI_FT232R_USB_UARTxxx ou l'ancien usb-Zieblue_RFPLAYER ...
 
 ## Après Validation
 
-<img width="531" height="197" alt="image" src="https://github.com/user-attachments/assets/2cc76f67-ecaf-40b3-96e1-fd0dd513ede4" />
+<img width="360" height="323" alt="image" src="https://github.com/user-attachments/assets/2964943e-1b40-462d-8c99-0659afe2e8ba" />
+
+CHOIX POSSIBLE du Nom de l'appareil et de la pièce  (  Bug sur l'intitulé dans HA )<img width="150" height="48" alt="image" src="https://github.com/user-attachments/assets/3f548a3d-5ce2-441a-8b00-1f6e06d4c234" />
 
 
-## Terminer
-<img width="293" height="136" alt="image" src="https://github.com/user-attachments/assets/fc933e9e-2d6c-4b31-9078-ddb8c2d4d772" />
+## ✅ 👉 Ignorer et terminer
+
+<img width="278" height="133" alt="image" src="https://github.com/user-attachments/assets/15e1eb92-8ea1-4f54-bdc3-8e5688c84311" />
 
 
-## selection !
+## selection ! 👆👆🏻
+<img width="953" height="344" alt="image" src="https://github.com/user-attachments/assets/6a1b4cee-2a43-4ed6-ac21-7f4bc622db80" />
 
-![image](https://github.com/Doubledom45/HA-RFPLAYER/assets/97252459/87641edd-caa1-4d1c-a5f9-1844885be85f)
 
-## Configurer
+## Configurer si besoin !<img width="58" height="54" alt="image" src="https://github.com/user-attachments/assets/74fee173-1f02-43fc-9752-03cf0f6ae8d3" />
+
 <img width="255" height="906" alt="image" src="https://github.com/user-attachments/assets/a63ea33c-ddd1-4c4a-ad5e-d466a5905bb2" />
 
 
@@ -84,4 +87,20 @@ Puis Terminer !
 
 ## Il est bavard !
 
-![image](https://github.com/Doubledom45/HA-RFPLAYER/assets/97252459/02851539-79bf-44dd-96ad-d06cb167cb23)
+<img width="973" height="237" alt="image" src="https://github.com/user-attachments/assets/6967d0a9-4346-4dd8-ba95-02c7de880c86" />
+
+L'information des "Protocol" en cours 
+<img width="373" height="262" alt="image" src="https://github.com/user-attachments/assets/eff6a52e-2612-4146-9667-9d0c64ad1829" />
+
+Et la partie Diagnostic qui reprend l'information compléte du RFPLAYER
+Un peu trop, mais c'est ce qui me permet de vérifier si Problème .
+<img width="115" height="792" alt="image" src="https://github.com/user-attachments/assets/0481fa70-ad5d-43f2-9ee0-5d70a4e3451e" />
+
+Il y a la possibilité de suivre les Log dans les journaux de HA, avec une cde développement 
+```
+action: logger.set_level
+data:
+  custom_components.rfplayer: debug
+alias: Mode Debug
+```
+Voir l'Information Bouton log.md !
