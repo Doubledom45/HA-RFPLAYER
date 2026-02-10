@@ -1,4 +1,6 @@
 # CHANGELOG
+## 2.1
+Erreur de transfert de fichier !
 ## 2
 Essai de supression de l'erreur lors de la reconfiguration
 ## 1.4
