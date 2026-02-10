@@ -5,8 +5,8 @@
 
 
 
-# HA-2025.11-RFPLAYER
-						## RFPLAYER EN HA 2025.11
+# HA-2026.2-RFPLAYER
+						## RFPLAYER EN HA 2026.2
       
 Pour installation👁‍🗨 👇
 # 🔎 [Voir Lisez_moi.md en Français](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Lisez_moi.md)
