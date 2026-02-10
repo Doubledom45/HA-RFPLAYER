@@ -1,4 +1,6 @@
 # CHANGELOG
+## 2
+Essai de supression de l'erreur lors de la reconfiguration
 ## 1.4
 Modification pour version HA 2025.11 structure des entités cover !
 ## 1.3
