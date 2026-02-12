@@ -9,12 +9,12 @@
 						## RFPLAYER EN HA 2026.2
       
 Pour installation👁‍🗨 👇
-# 🔎 [Voir Lisez_moi.md en Français](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Lisez_moi.md)
+# 🔎 [Voir Lisez_moi.md en Français](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/custom_components/rfplayer/Documentation/Lisez_moi.md)
 
   
 
 # Documentation de  l'API
-## [API Version 1.15](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Information/Specifications%20API%20RFPLAYER%20V1.15%20.pdf)
+## [API Version 1.15](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/custom_components/rfplayer/Documentation/Specifications%20API%20RFPLAYER%20V1.15%20.pdf)
 
 
 
