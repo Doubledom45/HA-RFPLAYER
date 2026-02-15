@@ -1,6 +1,6 @@
 {
   "domain": "rfplayer",
-  "name": "HA RFPlayer",
+  "name": "RFPlayer",
   "version": "2.1",
   "documentation": "https://github.com/Doubledom45/HA-RFPLAYER/tree/main/Information",
   "issue_tracker": "https://github.com/Doubledom45/HA-RFPLAYER/issues",
