@@ -20,6 +20,7 @@ Pour installation👁‍🗨 👇
 ## [API Version 1.8](https://github.com/Doubledom45/RFPLAYER/blob/main/Information/rfplayer_api_v1.8.pdf)
 
 
- # 👉<img width="417" height="69" alt="image" src="https://github.com/user-attachments/assets/312ba231-0f9c-44c4-9353-ad5a6d61795a" />
+ # 👉[<img width="417" height="69" alt="image" src="https://github.com/user-attachments/assets/312ba231-0f9c-44c4-9353-ad5a6d61795a" />](https://forum.hacf.fr/t/utilisateur-rfplayer-version-beta-en-cours-16-voir-new/8649/329)
+
 
  
