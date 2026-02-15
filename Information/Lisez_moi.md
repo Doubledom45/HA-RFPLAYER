@@ -1,100 +1,128 @@
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=RFPLAYER&category=integration)
-# Installation depuis HACS
- 
 # VERSION MODIFIER 2026.2
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=HA-RFPLAYER&category=integration)
+
+<img width="1544" height="488" alt="image" src="https://github.com/user-attachments/assets/a34a61f5-1171-4dce-adf6-dc610933d8bf" />
+
+# Installation depuis HACS 👇
+<img width="1680" height="42" alt="image" src="https://github.com/user-attachments/assets/15c150e9-a408-42dd-86d7-457cf2fa690c" />
+ Clic sur <img width="40" height="32" alt="image" src="https://github.com/user-attachments/assets/1a136b4d-5c79-4b41-a062-2eb7851b0c3e" />
 
 
-Avec le lien https://github.com/Doubledom45/RFPLAYER
+
+<img width="252" height="332" alt="image" src="https://github.com/user-attachments/assets/05d0cd35-5d29-4eb4-a22e-e80f06185003" />
+
+Dépots personalisés
+Avec le lien https://github.com/Doubledom45/HA-RFPLAYER
 
 Catégorie 
 
 Choix :
 Intégration
 
-<img width="458" height="211" alt="image" src="https://github.com/user-attachments/assets/5cec8e15-3e24-4c58-a53a-13f2151fc84f" />
+<img width="482" height="216" alt="image" src="https://github.com/user-attachments/assets/0e37ee1e-9832-4641-a5f6-b8982b3aa081" />
+
+
+<img width="326" height="79" alt="image" src="https://github.com/user-attachments/assets/9cf7a83a-fd6d-4bc7-9b10-628934934e8c" />
+
+
+##  👉Clic sur l'addon <img width="387" height="121" alt="image" src="https://github.com/user-attachments/assets/7d06ff78-d2cf-46f0-9b6f-d723d964f8fe" />
+
+
+<img width="1663" height="1066" alt="image" src="https://github.com/user-attachments/assets/8ab68c3c-b786-4bdf-b9bc-137463c85db5" />
 
 
 
 
-## Test avec new repos 👉<img width="67" height="30" alt="image" src="https://github.com/user-attachments/assets/2e9005bf-bb7c-4a4e-a9b5-96b2c698b25e" />
-
-<img width="358" height="252" alt="image" src="https://github.com/user-attachments/assets/db83e44f-391b-4e35-afab-eaac83068ca1" />👈Clic sur l'addon
-
-<img width="800" height="624" alt="image" src="https://github.com/user-attachments/assets/72b8f68b-e3d3-46d4-afe9-69c0f7465077" />
+## Clic <img width="167" height="79" alt="image" src="https://github.com/user-attachments/assets/4338f35a-1327-4938-bfc9-56040e3a809a" />
 
 
-
-## Clic <img width="158" height="58" alt="image" src="https://github.com/user-attachments/assets/358b23b3-99db-4e92-8647-483f93e83174" />
-
-<img width="509" height="382" alt="image" src="https://github.com/user-attachments/assets/cc8bc413-10b9-48f2-b116-b0d0111d46f9" />
+<img width="512" height="401" alt="image" src="https://github.com/user-attachments/assets/ca131fe4-b455-49ed-84b1-8608c8d44105" />
 
 
- 👉<img width="102" height="39" alt="image" src="https://github.com/user-attachments/assets/6016edb9-838f-480c-9eb5-7d28534026f4" />
 
+ 👉<img width="103" height="39" alt="image" src="https://github.com/user-attachments/assets/2702d5e2-4953-4a58-a6e3-6b7992a360e6" />
+
+<img width="221" height="42" alt="image" src="https://github.com/user-attachments/assets/ab8070a3-2817-40b0-9fe7-fd7c8c8942ea" />
+
+<img width="555" height="123" alt="image" src="https://github.com/user-attachments/assets/86fa62c7-8f7c-4e2e-b500-7707dde5851f" />
+<img width="543" height="206" alt="image" src="https://github.com/user-attachments/assets/57381056-dadd-4f37-a2c0-eb27ffee4706" />
+<img width="356" height="169" alt="image" src="https://github.com/user-attachments/assets/d3f91f57-bcc9-4c09-a4a6-81d8a79b7409" />
 
 # Reboot
-<img width="567" height="123" alt="image" src="https://github.com/user-attachments/assets/a8da8158-d841-4da9-884c-010180e32336" />
-<img width="543" height="213" alt="image" src="https://github.com/user-attachments/assets/88d1bf76-4670-4338-bf89-864da16abc80" />👈
-<img width="359" height="181" alt="image" src="https://github.com/user-attachments/assets/a2438eb0-924b-4a08-90ab-95d690312f60" />👈
+<img width="216" height="36" alt="image" src="https://github.com/user-attachments/assets/4858de57-6a28-4f24-9e3b-b6674201b542" />
+<img width="536" height="68" alt="image" src="https://github.com/user-attachments/assets/c7f1ae9b-3075-4861-a7cd-db1c93daaa8b" />
 
-## Ajout dans intégration <img width="559" height="52" alt="image" src="https://github.com/user-attachments/assets/bd954d9b-3277-4fbf-9ee2-427641513af3" />
+<img width="246" height="60" alt="image" src="https://github.com/user-attachments/assets/d80b683c-0ce8-4045-85c0-71dca318ff87" />👈
+
+
+Rechercher RFPLAYER👈
+
+## Ajout dans intégration
+<img width="447" height="540" alt="image" src="https://github.com/user-attachments/assets/1776a428-8e73-4771-aac8-8de650274031" />
+
+
 
 
 <img width="428" height="185" alt="image" src="https://github.com/user-attachments/assets/acda240a-215b-496e-924e-6f7e2dcb32f9" />
 
 
 ## Après ajout choix USB
-<img width="450" height="527" alt="image" src="https://github.com/user-attachments/assets/c7e15fb9-936d-48a7-ac2b-02d56bde164d" />
+<img width="441" height="521" alt="image" src="https://github.com/user-attachments/assets/c98da280-e111-4892-a78a-f5e83294c2e1" />
+
 
 # Choisir ce qui doit être le [BON !] port du Rfplayer
 Devrait être dans le choix , avec son intitulé soit FTDI_FT232R_USB_UARTxxx ou l'ancien usb-Zieblue_RFPLAYER ...
 
 ## Après Validation
 
-<img width="360" height="323" alt="image" src="https://github.com/user-attachments/assets/2964943e-1b40-462d-8c99-0659afe2e8ba" />
+<img width="370" height="326" alt="image" src="https://github.com/user-attachments/assets/8a120e5e-3ad8-48e9-b5ca-0c91a521c80f" />
 
-CHOIX POSSIBLE du Nom de l'appareil et de la pièce  (  Bug sur l'intitulé dans HA )<img width="150" height="48" alt="image" src="https://github.com/user-attachments/assets/3f548a3d-5ce2-441a-8b00-1f6e06d4c234" />
+
+CHOIX POSSIBLE du Nom de l'appareil et de la pièce  (  Bug sur l'intitulé dans HA )<img width="156" height="63" alt="image" src="https://github.com/user-attachments/assets/d9bc9263-24a1-44de-89e1-881b2d4097ab" />
+
 
 
 ## ✅ 👉 Ignorer et terminer
 
-<img width="278" height="133" alt="image" src="https://github.com/user-attachments/assets/15e1eb92-8ea1-4f54-bdc3-8e5688c84311" />
+<img width="326" height="121" alt="image" src="https://github.com/user-attachments/assets/471eb5c4-87af-4486-99d3-6f57ee6856e1" />
 
 
 ## selection ! 👆👆🏻
-<img width="953" height="344" alt="image" src="https://github.com/user-attachments/assets/6a1b4cee-2a43-4ed6-ac21-7f4bc622db80" />
+<img width="988" height="380" alt="image" src="https://github.com/user-attachments/assets/6126a161-93dd-4d57-973a-b9581b6673b8" />
 
 
-## Configurer si besoin !<img width="58" height="54" alt="image" src="https://github.com/user-attachments/assets/74fee173-1f02-43fc-9752-03cf0f6ae8d3" />
-
-<img width="255" height="906" alt="image" src="https://github.com/user-attachments/assets/a63ea33c-ddd1-4c4a-ad5e-d466a5905bb2" />
+## Configurer si besoin <img width="75" height="62" alt="image" src="https://github.com/user-attachments/assets/cc718d8e-dfdb-47ae-9b8b-68d7568181ec" />
 
 
-## en bas Valider
-Puis Terminer !
+<img width="468" height="1057" alt="image" src="https://github.com/user-attachments/assets/b4844f38-b0b4-4204-93b7-635983dcc628" />
 
-![image](https://github.com/Doubledom45/RFPLAYER/assets/97252459/02ceaae4-b869-41b3-b3d7-bcd98cc1abaa)
+
+
+## en bas Valider<img width="96" height="59" alt="image" src="https://github.com/user-attachments/assets/a6f47b9f-cc26-4e92-8095-0fb2611a7c92" />
+
+Puis Terminer !<img width="376" height="187" alt="image" src="https://github.com/user-attachments/assets/deecbc21-ab63-40ba-ae63-79ad147e31f5" />
+
 
 # Donc Reboot !
 ## ET HOP
 
-<img width="328" height="122" alt="image" src="https://github.com/user-attachments/assets/1d6937ac-3595-493e-9c10-b0ba691219c1" />
-
-
 ## Je vais sur l'appareil
-<img width="928" height="326" alt="image" src="https://github.com/user-attachments/assets/3fdc3dc3-c9da-4106-b086-19572d522444" />
+<img width="925" height="88" alt="image" src="https://github.com/user-attachments/assets/bb7d01fb-0a4d-4ee8-afa9-f1be4e441946" />
+
 
 
 ## Il est bavard !
 
-<img width="973" height="237" alt="image" src="https://github.com/user-attachments/assets/6967d0a9-4346-4dd8-ba95-02c7de880c86" />
+<img width="996" height="769" alt="image" src="https://github.com/user-attachments/assets/437eaf83-ae4a-433c-8d22-ef6ed002b4cf" />
+
 
 L'information des "Protocol" en cours 
-<img width="373" height="262" alt="image" src="https://github.com/user-attachments/assets/eff6a52e-2612-4146-9667-9d0c64ad1829" />
+<img width="316" height="295" alt="image" src="https://github.com/user-attachments/assets/1c2c6d00-6189-4145-8797-cd0f1343cbd7" />
 
 Et la partie Diagnostic qui reprend l'information compléte du RFPLAYER
 Un peu trop, mais c'est ce qui me permet de vérifier si Problème .
-<img width="115" height="792" alt="image" src="https://github.com/user-attachments/assets/0481fa70-ad5d-43f2-9ee0-5d70a4e3451e" />
+<img width="312" height="1008" alt="image" src="https://github.com/user-attachments/assets/36d4a1a6-cff0-4c86-a59c-533337187b01" />
+
 
 Il y a la possibilité de suivre les Log dans les journaux de HA, avec une cde développement 
 ```
@@ -103,4 +131,4 @@ data:
   custom_components.rfplayer: debug
 alias: Mode Debug
 ```
-[Voir l'Information Bouton log.md !](https://github.com/Doubledom45/RFPLAYER/blob/main/Information/Bouton%20log.md)
+[Voir l'Information Bouton log.md !](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Information/Bouton%20log.md)
