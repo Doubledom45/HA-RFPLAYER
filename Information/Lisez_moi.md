@@ -1,10 +1,10 @@
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=HA-RFPLAYER&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=RFPLAYER&category=integration)
 # Installation depuis HACS
  
 # VERSION MODIFIER 2026.2
 
 
-Avec le lien https://github.com/Doubledom45/HA-RFPLAYER
+Avec le lien https://github.com/Doubledom45/RFPLAYER
 
 Catégorie 
 
@@ -73,7 +73,7 @@ CHOIX POSSIBLE du Nom de l'appareil et de la pièce  (  Bug sur l'intitulé dans
 ## en bas Valider
 Puis Terminer !
 
-![image](https://github.com/Doubledom45/HA-RFPLAYER/assets/97252459/02ceaae4-b869-41b3-b3d7-bcd98cc1abaa)
+![image](https://github.com/Doubledom45/RFPLAYER/assets/97252459/02ceaae4-b869-41b3-b3d7-bcd98cc1abaa)
 
 # Donc Reboot !
 ## ET HOP
@@ -103,4 +103,4 @@ data:
   custom_components.rfplayer: debug
 alias: Mode Debug
 ```
-[Voir l'Information Bouton log.md !](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Information/Bouton%20log.md)
+[Voir l'Information Bouton log.md !](https://github.com/Doubledom45/RFPLAYER/blob/main/Information/Bouton%20log.md)
