@@ -1,5 +1,5 @@
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=RFPLAYER&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=HA-RFPLAYER&category=integration)
 
 
 
@@ -9,12 +9,12 @@
 						## RFPLAYER EN HA 2026.2
       
 Pour installation👁‍🗨 👇
-# 🔎 [Voir Lisez_moi.md en Français](https://github.com/Doubledom45/RFPLAYER/blob/main/Information/Lisez_moi.md)
+# 🔎 [Voir Lisez_moi.md en Français](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Information/Lisez_moi.md)
 
   
 
 # Documentation de  l'API
-## [Specifications API RFPLAYER V1.15.pdf](https://github.com/Doubledom45/RFPLAYER/blob/main/Information/Specifications%20API%20RFPLAYER%20V1.15%20.pdf)
+## [Specifications API RFPLAYER V1.15.pdf](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Information/Specifications%20API%20RFPLAYER%20V1.15%20.pdf)
 
 
 ## [API Version 1.8](https://github.com/Doubledom45/RFPLAYER/blob/main/Information/rfplayer_api_v1.8.pdf)
