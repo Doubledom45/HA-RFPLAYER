@@ -383,6 +383,29 @@ class RfplayerDevice(RestoreEntity):
     @callback
     def handle_event_callback(self, event):
         """Handle incoming event for device type."""
+
+        # --- DÉBUT MODIF : COMPTEUR CYCLIQUE ---
+        event_id = str(event.get(EVENT_KEY_ID, ""))
+
+        # 1. On ignore toujours le débug lourd
+        if "RETOUR" in event_id:
+            return
+        command = event.get(EVENT_KEY_COMMAND, "unknown")
+
+        # 2. Envoi au bus avec l'ID de l'appareil (device_id)
+        if self.entity_id:
+            if not hasattr(self, '_cycle_count'): self._cycle_count = 0
+            self._cycle_count = (self._cycle_count + 1) % 2
+            self.hass.bus.async_fire("rfplayer_signal_received", {
+                "entity_id": self.entity_id, # L'entité HA
+                "device_id": event_id,       # L'ID physique du bouton (ex: A1)
+                "state": command,
+                "cycle": self._cycle_count
+            })
+
+        # 3. Logique interne
+        # --- FIN MODIF ---
+        
         # Call platform specific event handler
         self._handle_event(event)
 
