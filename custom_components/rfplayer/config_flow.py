@@ -75,8 +75,9 @@ class RfplayerConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
 class RfPlayerOptionsFlowHandler(config_entries.OptionsFlow):
     """Handle a RFPLayer options flow."""
-
-    device_registry: dr.DeviceRegistry
+     def __init__(self, config_entry):
+        """Initialize."""
+        self._config_entry = config_entry
 
     async def async_step_init(self, user_input: dict = None):
     # async def async_step_user(self, user_input: dict | None = None) -> FlowResult:        
