@@ -1,0 +1,32 @@
+#https://oneuptime.com/blog/post/2025-12-20-github-actions-pull-request-triggers/view
+#https://docs.github.com/fr/actions/reference/workflows-and-actions/workflow-syntax#name
+name: Validate with hassfest
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - synchronize
+      - reopened
+      - ready_for_review
+      - labeled
+      - unlabeled
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: PR Info
+        run: |
+          echo "PR Number: ${{ github.event.pull_request.number }}"
+          echo "PR Title: ${{ github.event.pull_request.title }}"
+          echo "PR Author: ${{ github.event.pull_request.user.login }}"
+          echo "Base Branch: ${{ github.base_ref }}"
+          echo "Head Branch: ${{ github.head_ref }}"
+          echo "Changed Files: ${{ github.event.pull_request.changed_files }}"
+  validate:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v4"
+      - uses: "home-assistant/actions/hassfest@master"
