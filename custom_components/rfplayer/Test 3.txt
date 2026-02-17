@@ -1,2 +1,2 @@
-V2.1
+V2.2
 https://github.com/Doubledom45/HA-RFPLAYER
