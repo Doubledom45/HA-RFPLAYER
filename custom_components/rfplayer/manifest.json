@@ -1,12 +1,12 @@
 {
   "domain": "rfplayer",
-  "name": "RFPlayer",
-  "version": "2.1",
-  "documentation": "https://github.com/Doubledom45/HA-RFPLAYER/tree/main/Information",
-  "issue_tracker": "https://github.com/Doubledom45/HA-RFPLAYER/issues",
+  "name": "RFPlayer Dom",
+  "codeowners": ["@Doubledom45"],
   "config_flow": true,
+  "documentation": "https://github.com/Doubledom45/HA-RFPLAYER",
+  "integration_type": "hub",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/Doubledom45/HA-RFPLAYER/issues",
   "requirements": ["pyserial==3.5", "pyserial-asyncio-fast"],
-  "codeowners": ["@Doubledom45", "@Crazymikefra"],
-  "dependencies": [],
-  "iot_class": "assumed_state"
+  "version": "2.2"
  }
