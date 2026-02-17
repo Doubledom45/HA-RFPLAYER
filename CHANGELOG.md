@@ -1,4 +1,6 @@
 # CHANGELOG
+## 2.2
+Mise à jour du Gitub
 ## 2.1
 Erreur de transfert de fichier !
 ## 2
