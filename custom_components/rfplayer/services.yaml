@@ -54,6 +54,7 @@ send_command:
               - LBT 16
               - FORMAT RFLINK OFF
               - FORMAT RFLINK BINARY
+              - PARROTLEARN XML
               - " "
           mode: dropdown
     protocol:
