@@ -1,4 +1,7 @@
 # CHANGELOG
+## 2.2.1
+Ajout Icon et logo personnalisé
+HA 2026.3 
 ## 2.2
 Mise à jour du Gitub
 ## 2.1
