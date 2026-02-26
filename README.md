@@ -1,12 +1,15 @@
 
+<img width="256" height="255" alt="image" src="https://github.com/user-attachments/assets/5ff48b31-0fc2-46c8-8091-c415302a7fd5" />
+
+
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=HA-RFPLAYER&category=integration)
 
 
 
 
 
-# HA-2026.2-RFPLAYER
-						## RFPLAYER EN HA 2026.2
+# HA-2026.3-RFPLAYER
+						## RFPLAYER EN HA 2026.3
       
 Pour installation👁‍🗨 👇
 # 🔎 [Voir Lisez_moi.md en Français](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Information/Lisez_moi.md)
