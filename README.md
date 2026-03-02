@@ -1,4 +1,4 @@
-
+						## Les Logo et Icon ne seront effectifs qu'à la sortie et installation de HA 2026.3
 <img width="256" height="255" alt="image" src="https://github.com/user-attachments/assets/5ff48b31-0fc2-46c8-8091-c415302a7fd5" />
 
 
