@@ -23,7 +23,7 @@
     "options": {
       "step": {
         "init": {
-          "title": "Options RFPlayer",
+          "title": "Options RFPlayer👉 Si modification et Validation👇 Reboot HA ✅  ",
           "data": {
             "automatic_add":"Ajouter les appareil automatiquement lorsqu'un signal est reçu",
             "conf_format": "JSON Obligatoire pour l'addon [sinon HS]",
