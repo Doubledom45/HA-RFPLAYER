@@ -3,7 +3,8 @@
 
 <img width="902" height="954" alt="image" src="https://github.com/user-attachments/assets/d130e72f-6c2c-4cb9-a27d-918b0c64fb64" />
 
-
+## La documentation sera mise à jour aprés sortie de la version 2026.3 de HA 
+## ( ici référence ancienne version)
 # Installation depuis HACS 👇
 <img width="1680" height="42" alt="image" src="https://github.com/user-attachments/assets/15c150e9-a408-42dd-86d7-457cf2fa690c" />
  Clic sur <img width="40" height="32" alt="image" src="https://github.com/user-attachments/assets/1a136b4d-5c79-4b41-a062-2eb7851b0c3e" />
