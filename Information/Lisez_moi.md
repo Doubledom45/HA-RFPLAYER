@@ -1,7 +1,8 @@
-# VERSION MODIFIER 2026.2
+# VERSION MODIFIER 2026.3
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Doubledom45&repository=HA-RFPLAYER&category=integration)
 
-<img width="1544" height="488" alt="image" src="https://github.com/user-attachments/assets/a34a61f5-1171-4dce-adf6-dc610933d8bf" />
+<img width="902" height="954" alt="image" src="https://github.com/user-attachments/assets/d130e72f-6c2c-4cb9-a27d-918b0c64fb64" />
+
 
 # Installation depuis HACS 👇
 <img width="1680" height="42" alt="image" src="https://github.com/user-attachments/assets/15c150e9-a408-42dd-86d7-457cf2fa690c" />
