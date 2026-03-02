@@ -106,15 +106,13 @@ data:
   custom_components.rfplayer: error
 alias: Mode Erreur
 ```
-On ajoute le lien vers le Rfplayer<img width="511" height="103" alt="image" src="https://github.com/user-attachments/assets/3cffc84d-193f-4811-be35-26fcf2da7b94" />
+On ajoute le lien vers le Rfplayer<img width="505" height="88" alt="image" src="https://github.com/user-attachments/assets/8270c4f9-0582-4004-a0a0-6abfae5d542c" />
 
 
-<img width="551" height="1066" alt="image" src="https://github.com/user-attachments/assets/06545110-8c49-4a9a-9860-c94ff98c22ed" />
+
+<img width="514" height="1006" alt="image" src="https://github.com/user-attachments/assets/279a2afd-2d56-4338-94d1-c1b52fe457dc" />
 
 
-Message en rouge [Normal car HA à le Bug cité avant]
-
-<img width="499" height="56" alt="image" src="https://github.com/user-attachments/assets/61d5eaa3-0cf1-421a-acce-cf09cec50f8a" />
 
 
 On valide 👉<img width="88" height="54" alt="image" src="https://github.com/user-attachments/assets/d75fdcdc-97e0-4edc-a1a0-f04c513800a7" />
