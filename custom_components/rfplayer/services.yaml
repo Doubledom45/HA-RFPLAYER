@@ -140,7 +140,7 @@ send_command:
           mode: dropdown
 
 send_raw_command:
-  description: Send device raw command through RFPlayer.
+  description: Envoyer une trame de commande au RFPlayer.
   fields:
     command:
       name: Command
@@ -152,7 +152,7 @@ send_raw_command:
         text:
 
 test_frame:
-  description: Test a frame inside RFPlayer.
+  description: Tester une frame remonté par le  RFPlayer.
   fields:
     frame:
       name: Frame
