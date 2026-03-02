@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.3
+Test du mode PARROTLEARN
+
+AJOUT LOGO ET ICON PERSO
 ## 2.2.1
 Ajout Icon et logo personnalisé
 HA 2026.3 
