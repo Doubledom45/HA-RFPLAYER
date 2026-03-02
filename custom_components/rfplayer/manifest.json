@@ -8,5 +8,5 @@
   "iot_class": "assumed_state",
   "issue_tracker": "https://github.com/Doubledom45/HA-RFPLAYER/issues",
   "requirements": ["pyserial==3.5", "pyserial-asyncio-fast"],
-  "version": "2.2.1"
+  "version": "2.3"
  }
