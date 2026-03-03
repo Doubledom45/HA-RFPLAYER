@@ -383,7 +383,7 @@ class RfplayerDevice(RestoreEntity):
     @callback
     def handle_event_callback(self, event):
         """Handle incoming event for device type."""
-
+ 
         # --- DÉBUT MODIF : COMPTEUR CYCLIQUE ---
         event_id = str(event.get(EVENT_KEY_ID, ""))
 
@@ -405,7 +405,7 @@ class RfplayerDevice(RestoreEntity):
 
         # 3. Logique interne
         # --- FIN MODIF ---
-        
+ 
         # Call platform specific event handler
         self._handle_event(event)
 

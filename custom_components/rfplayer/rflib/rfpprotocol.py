@@ -132,10 +132,10 @@ class PacketHandling(ProtocolBase):
                         log.debug("command response: %s", packet)
                         self.handle_response_packet(packet)
                     else:
-                        log.debug("handle packet: %s", packet)
+#                        log.debug("handle packet: %s", packet)
                         self.handle_packet(packet)
         else:
-            log.warning("no valid packet, ou ZIA66 = Retour Info")
+            log.warning("no valid packet, ZIA66 ou  Retour Info")
 
     def handle_packet(self, packet: PacketType) -> None:
         """Process incoming packet dict and optionally call callback."""
@@ -176,6 +176,10 @@ class PacketHandling(ProtocolBase):
                         self.send_raw_packet(f"ZIA++{command} {device_address} {protocol} {DIM_ADDON}")
                 else:
                     self.send_raw_packet(f"ZIA++{command} {device_address} {protocol} %{device_id} ") #le device_id devient le % du DIM
+
+            elif protocol == "APPRENTISSAGE_PARROT" : # le device_id contient le rappel entre crochet [....] command possible ON/OFF
+                self.send_raw_packet(f"ZIA++PARROTLEARN {device_address} [{device_id}] {command}")
+
             else:
                 self.send_raw_packet(f"ZIA++{command} {device_address} {protocol}")# Pour autre que le DIM🤪
         else:
@@ -275,7 +279,7 @@ class EventHandling(PacketHandling):
             if self.ignore_event(event["id"]):
                 log.debug("ignoring event with id: %s", event)
                 continue
-            log.debug("got event: %s", event)
+#            log.debug("got event: %s", event)
             if self.event_callback:
                 self.event_callback(event)
             else:

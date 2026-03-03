@@ -168,6 +168,11 @@ def decode_packet(packet: str) -> list:
                 protocol="REPEATED"
                 message=frame
                 packets_found.append(globals()["_".join([protocol,"decode"])](data,message,PacketHeader.gateway.name))
+            elif frame.startswith('{"parrotStatus"'):
+                protocol="PARROT"
+                message=frame
+ #               packets_found.append(globals()["_".join([protocol,"decode"])](data,message,PacketHeader.gateway.name))
+                log.debug("Message : %s", str(message))
             else:
                 message = json.loads(frame)
                 for protocol in message:
@@ -299,7 +304,7 @@ def packet_events(packet: PacketType) -> Generator[PacketType, None, None]:
 
     if(packet.get('elements')):
         for sensor, value in packet.get('elements').items():
-            log.debug("packet_events, sensor:%s,value:%s", sensor, value)
+#            log.debug("packet_events, sensor:%s,value:%s", sensor, value)
             unit = packet.get("sensor" + "_unit", None)
 
             if forceid==None:
