@@ -2,7 +2,7 @@
 import logging
 
 from homeassistant.const import (
-    CONF_DEVICES,CONF_DEVICES)
+    CONF_DEVICE,CONF_DEVICES)
 from homeassistant.helpers.entity import EntityCategory
 
 from . import DATA_DEVICE_REGISTER, EVENT_KEY_SENSOR, RfplayerDevice
