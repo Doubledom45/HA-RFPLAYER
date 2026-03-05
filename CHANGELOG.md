@@ -1,4 +1,6 @@
 # CHANGELOG
+## 2.3.1
+Retour EDISIO ?
 ## 2.3
 Test du mode PARROTLEARN
 
