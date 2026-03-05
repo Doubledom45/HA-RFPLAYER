@@ -374,6 +374,7 @@ def infoType_15_decode(infos:list,allowEmptyID:bool=False) -> list:
     if fields_found["subType"] == None or fields_found["subType"] == "" : fields_found["subType"]=infos.get("subType")
     fields_found["qualifier"]=infos["qualifier"]
     Fields_Infos=infos.get("infoMeaning").split(",")
+    # Test si Report Status suite demande du device !
     if fields_found["subType"] == "33" :    # Report status
         fields_found["battery"]=Fields_Infos[0].split("V")[0]
         fields_found["model"]= "Report_Status"
