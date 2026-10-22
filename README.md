@@ -8,8 +8,8 @@
 
 
 
-# HA-2026.3-RFPLAYER
-						## RFPLAYER EN HA 2026.3
+# HA-2026.10-RFPLAYER
+						## RFPLAYER EN HA 2026.10
       
 Pour installation👁‍🗨 👇
 # 🔎 [Voir Lisez_moi.md en Français](https://github.com/Doubledom45/HA-RFPLAYER/blob/main/Information/Lisez_moi.md)
