@@ -1,4 +1,4 @@
-"""Asyncio protocol implementation of RFplayer."""
+"""Asyncio_fast protocol implementation of RFplayer."""
 
 import asyncio
 from datetime import timedelta
