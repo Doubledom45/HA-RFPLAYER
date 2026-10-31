@@ -7,7 +7,7 @@ from functools import partial
 import logging
 from typing import Any, Callable, Coroutine, Optional, Sequence, Tuple, Type
 
-from serial_asyncio_fast import create_serial_connection
+from serial_asyncio_fast import create_serial_connection #modification 2026.10
 
 from .rfpparser import (
     PacketType,
