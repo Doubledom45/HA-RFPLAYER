@@ -2,7 +2,7 @@
 import os
 
 import serial
-import serial.tools.list_ports
+import serial.tools.list_ports # modification 2026.10
 import voluptuous as vol
 import logging
 
