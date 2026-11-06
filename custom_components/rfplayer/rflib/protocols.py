@@ -453,7 +453,7 @@ def PARROT_decode(data:list,message:list,node) -> list:
     if protocols_debug: log.debug("decoding: datas=%s",str(decoding))
     for element,value in decoding.items():
         decoded_items[element]=value
-    decoding=globals()["_".join(["infoType",decoded_items["infoType"],"decode"])](message['infos'], allowEmptyID=True)
+    decoding=globals()["_".join(["infoType",decoded_items["infoType"],"decode"])](message['infos'])
 	if decoding != None:
         if len(decoding)>0:
             decoding["platform"] = "sensor"
