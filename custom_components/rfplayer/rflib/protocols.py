@@ -446,7 +446,7 @@ def KD101_decode(data:list,message:list,node) -> list:
 #PARROT : Infotypes : 0
 def PARROT_decode(data:list,message:list,node) -> list:
     if protocols_debug: log.debug("Decode PARROT")
-    if protocols_debug: log.debug("data:%s",str(data))
+      if protocols_debug: log.debug("data:%s",str(data))
     if protocols_debug: log.debug("message:%s",str(message))
     decoded_items = cast(PacketType, {"node": node})
     decoding=header_decode(message['header'])
@@ -454,13 +454,13 @@ def PARROT_decode(data:list,message:list,node) -> list:
     for element,value in decoding.items():
         decoded_items[element]=value
     decoding=globals()["_".join(["infoType",decoded_items["infoType"],"decode"])](message['infos'])
-	   if decoding != None:
+    if decoding != None:
         if len(decoding)>0:
             decoding["platform"] = "sensor"
 
             for element,value in decoding.items():
                 decoded_items[element]=value
-            
+
             return decoded_items
     
     #log.warn('Shadow Message, no id found !')
