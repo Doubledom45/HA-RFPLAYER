@@ -446,7 +446,7 @@ def KD101_decode(data:list,message:list,node) -> list:
 #PARROT : Infotypes : 0
 def PARROT_decode(data:list,message:list,node) -> list:
     if protocols_debug: log.debug("Decode PARROT")
-      if protocols_debug: log.debug("data:%s",str(data))
+    if protocols_debug: log.debug("data:%s",str(data))
     if protocols_debug: log.debug("message:%s",str(message))
     decoded_items = cast(PacketType, {"node": node})
     decoding=header_decode(message['header'])
