@@ -1,4 +1,8 @@
 # CHANGELOG
+## 2.3.4
+Bug divers
+
+Revenir en 2.3.1 si probleme
 ## 2.3.3
 Parrot ID 0
 ## 2.3.1
