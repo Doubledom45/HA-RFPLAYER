@@ -229,6 +229,14 @@ async def async_setup_entry(hass, entry):
             RepeaterCommand+=" -"
             for Repeater in options.get(CONF_REPEATER_DISABLE) :
                 RepeaterCommand += " "+str(Repeater)
+        # Quand tous les protocoles répétables sont exclus, envoyer la forme
+        # « REPEATER - * » de la spécification API plutôt que la liste complète :
+        # sur le RFPlayer testé, seul le premier protocole placé après « - »
+        # était retiré (STATUS listait encore tous les autres comme répétés).
+        ALL_REPEATABLE = {"X10", "RTS", "VISONIC", "BLYSS", "CHACON", "OREGONV1", "OREGONV2",
+                          "OREGONV3/OWL", "DOMIA", "X2D", "KD101", "PARROT", "TIC", "FS20", "EDISIO"}
+        if ALL_REPEATABLE <= set(options.get(CONF_REPEATER_DISABLE) or []):
+            RepeaterCommand = "REPEATER - *"
 
         TraceCommand="TRACE - *"
         if options.get(CONF_REPEATER_DISABLE,None)!=None :
@@ -390,7 +398,11 @@ class RfplayerDevice(RestoreEntity):
         # 1. On ignore toujours le débug lourd
         if "RETOUR" in event_id:
             return
-        command = event.get(EVENT_KEY_COMMAND, "unknown")
+        # Seuls les événements du champ "command" portent la clé "command".
+        # Pour tous les autres champs (RTS, X2D, sondes...), packet_events()
+        # place la valeur décodée dans "value" : on s'en sert en repli pour que
+        # l'événement rfplayer_signal_received transporte un état exploitable.
+        command = event.get(EVENT_KEY_COMMAND, event.get("value", "unknown"))
 
         # 2. Envoi au bus avec l'ID de l'appareil (device_id)
         if self.entity_id:
