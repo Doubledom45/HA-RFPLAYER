@@ -390,7 +390,11 @@ class RfplayerDevice(RestoreEntity):
         # 1. On ignore toujours le débug lourd
         if "RETOUR" in event_id:
             return
-        command = event.get(EVENT_KEY_COMMAND, "unknown")
+        # Seuls les événements du champ "command" portent la clé "command".
+        # Pour tous les autres champs (RTS, X2D, sondes...), packet_events()
+        # place la valeur décodée dans "value" : on s'en sert en repli pour que
+        # l'événement rfplayer_signal_received transporte un état exploitable.
+        command = event.get(EVENT_KEY_COMMAND, event.get("value", "unknown"))
 
         # 2. Envoi au bus avec l'ID de l'appareil (device_id)
         if self.entity_id:
