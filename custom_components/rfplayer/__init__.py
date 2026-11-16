@@ -229,6 +229,14 @@ async def async_setup_entry(hass, entry):
             RepeaterCommand+=" -"
             for Repeater in options.get(CONF_REPEATER_DISABLE) :
                 RepeaterCommand += " "+str(Repeater)
+        # Quand tous les protocoles répétables sont exclus, envoyer la forme
+        # « REPEATER - * » de la spécification API plutôt que la liste complète :
+        # sur le RFPlayer testé, seul le premier protocole placé après « - »
+        # était retiré (STATUS listait encore tous les autres comme répétés).
+        ALL_REPEATABLE = {"X10", "RTS", "VISONIC", "BLYSS", "CHACON", "OREGONV1", "OREGONV2",
+                          "OREGONV3/OWL", "DOMIA", "X2D", "KD101", "PARROT", "TIC", "FS20", "EDISIO"}
+        if ALL_REPEATABLE <= set(options.get(CONF_REPEATER_DISABLE) or []):
+            RepeaterCommand = "REPEATER - *"
 
         TraceCommand="TRACE - *"
         if options.get(CONF_REPEATER_DISABLE,None)!=None :
